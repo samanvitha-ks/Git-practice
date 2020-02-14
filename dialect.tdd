@@ -69,7 +69,7 @@
     <function group='cast' name='INT' return-type='int'>
       <formula>CAST(%1 AS BIGINT)</formula>
       <argument type='int' />
-    </function>
+    </function>;;
     <function group='cast' name='INT' return-type='int'>
       <formula>CAST(%1 AS BIGINT)</formula>
       <argument type='str' />
