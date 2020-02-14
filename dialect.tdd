@@ -3,7 +3,7 @@
          class='actian_odbc'
          base='DefaultSQLDialect'
          version='18.1'>
-  <function-map>!
+  <function-map>
   <function group='numeric' name='VERSION' return-type='str'>
       <formula>VARCHAR(&apos;18.1-80.00&apos;</formula>
       <argument type='localstr' />
@@ -15,7 +15,7 @@
 	<function group='numeric' name='SQUARE' return-type='real'>
       <formula>(%1 * %1)</formula>
       <argument type='real' />
-    </function>
+    </function>--->commented
     <function group='numeric' name='COT' return-type='real'>
       <formula>(  CASE WHEN TAN(%1) = 0 THEN NULL ELSE 1.0/TAN(%1) END  )</formula>
       <argument type='real' />
